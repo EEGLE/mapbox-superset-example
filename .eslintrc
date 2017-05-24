@@ -1,0 +1,16 @@
+{
+    "extends": ["airbnb-base/legacy"],
+    "rules": {
+        "no-underscore-dangle": "off",
+        "object-curly-spacing": ["error", "never"],
+        "no-param-reassign": "warn",
+        "dot-notation": "off",
+        "no-unused-vars": "warn",
+        "no-new": "warn",
+        "no-bitwise": "off"
+    },
+    "parser": "babel-eslint",
+    "globals": {
+      "mapboxSuperset": true
+    }
+}

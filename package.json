@@ -38,7 +38,7 @@
     "webpack": "^2.6.0"
   },
   "dependencies": {
-    "mapbox-superset": "^1.0.7",
+    "mapbox-superset": "^1.0.9",
     "mapbox-gl": "^0.37.0"
   }
 }

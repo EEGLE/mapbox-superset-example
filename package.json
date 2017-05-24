@@ -1,0 +1,44 @@
+{
+  "name": "mapbox-superset-example",
+  "version": "1.0.0",
+  "description": "Example for mapbox-superset",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin jest --coverage",
+    "build": "./node_modules/.bin/webpack --progress",
+    "watch": "./node_modules/.bin.webpack --watch --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EEGLE/mapbox-superset-example.git"
+  },
+  "keywords": [
+    "example",
+    "mapbox-superset",
+    "eegle",
+    "eegle.io"
+  ],
+  "author": "Eegle.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EEGLE/mapbox-superset-example/issues"
+  },
+  "homepage": "https://github.com/EEGLE/mapbox-superset-example#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-loader": "^1.7.1",
+    "jest": "^20.0.3",
+    "webpack": "^2.6.0"
+  },
+  "dependencies": {
+    "mapbox-superset": "^1.0.7",
+    "mapbox-gl": "^0.37.0"
+  }
+}

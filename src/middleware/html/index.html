@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.css" rel="stylesheet" />
+    
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      #map {
+        width: 100%;
+        height: 100%;
+      }
+
+      #change-style--button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <button id="change-style--button" class="mdc-button mdc-button--raised mdc-button--primary"> Change style </button>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.js"></script>
+    <script>
+      window.mdc.autoInit();
+    </script>
+    <script src="../../../dist/middleware/js/bundle.js"></script>
+  
+  </body>
+
+</html>

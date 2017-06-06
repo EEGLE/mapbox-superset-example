@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin jest --coverage",
     "build": "./node_modules/.bin/webpack --progress",
-    "watch": "./node_modules/.bin.webpack --watch --progress"
+    "watch": "./node_modules/.bin/webpack --watch --progress"
   },
   "repository": {
     "type": "git",
@@ -34,11 +34,11 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-loader": "^1.7.1",
-    "jest": "^20.0.3",
-    "webpack": "^2.6.0"
+    "jest": "^20.0.4",
+    "webpack": "^2.6.1"
   },
   "dependencies": {
-    "mapbox-superset": "^1.0.13",
-    "mapbox-gl": "^0.37.0"
+    "mapbox-gl": "^0.37.0",
+    "mapbox-superset": "^1.1.1"
   }
 }
